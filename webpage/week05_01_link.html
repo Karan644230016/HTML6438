@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="karan">
+    <title>Link-Karan</title>
+    <style>
+        
+        img{
+            width: 100px;  height: 100px;
+        }
+        /*
+        a:link{
+            color:green;
+            background-color: aqua;
+            text-decoration: none;
+        }
+        a:visited{color:red;
+            background-color: olivedrab;
+            text-decoration: none;
+            
+        }
+        a:hover{
+            color:white;
+            background-color: black;
+            text-decoration:underline ;
+            text-decoration-color:red ;
+        }
+        a:active{
+            color:yellowgreen;
+            background-color:blueviolet ;
+            text-decoration:underline;
+        }
+        */
+
+        a:link, a:visited {
+        background-color: rgb(15, 70, 60);
+        color: wheat;
+        padding: 5px 15px ;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 5px;
+        
+        }
+        a:hover,a:active{
+        background-color: rgb(102, 12, 90);
+        color: wheat;
+        padding: 5px 15px ;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 5px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="top" > Welcome to Karan Homepage</h1>
+
+    <hr>
+
+    <h3 style="text-align: right;" ><a href="home.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX78dp1BJYdKhCYVRpyriyDKtLFkRsDArtLAHHe8xXERLoy1_f_raasGjPhFmFzC65cWM&usqp=CAU" alt="back arrow"></a></h3>
+    <h2>Absolute URL</h2>
+    <p> 
+        <a href="http://www.npru.ac.th">NPRU</a>
+    </p>
+
+
+    <hr>
+
+
+    <h2>Target attribute</h2>
+    <p>
+        <a href="http://www.npru.ac.th"  target="_blank">NPRU-blank &#128508;</a>
+    </p>
+    <p>
+        <a href="http://www.npru.ac.th"  target="_self">NPRU-self &#128556</a>
+    </p>
+    <p>
+        <a href="http://www.npru.ac.th"  target="_parent">NPRU-parant</a>
+    </p>
+    <p>
+        <a href="http://www.npru.ac.th"  target="_top">NPRU-top</a>
+    </p>
+
+
+    <hr>
+
+
+    <h2>Relative URL</h2>
+    <p>
+        <a href="home.html">home</a>
+    </p>
+
+
+    <hr>
+
+
+    <h2>Link to Mail</h2>
+    <p>
+        <a href="mailto:644230016@webmail.npru.ac.th">Mail to me</a>
+    </p>
+
+
+    <hr>
+
+
+    <h2>Botton</h2>
+    <p>
+        <button  onclick="document.location='home.html'">Back to home</button>
+        <button type="submit" >ยืนยัน</button>
+        <button type="reset" >เคลียร์</button>
+    </p>
+
+    
+    <hr>
+
+    <p style="text-align: center;">
+        <a href="#top"  >Jump to top</a>
+        <a href="week04_01_image.html#tower"  >Jump to file:image.html</a>
+    </p>
+    
+
+
+
+</body>
+
+</html>
